@@ -3647,9 +3647,10 @@ input[type="button"].btn-block {
 
 .btn-group,
 .btn-group-vertical {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
+  position: absolute;
+  bottom: 3;
+  /*display: inline-block;*/
+  vertical-align: left;
 }
 
 .btn-group > .btn,
