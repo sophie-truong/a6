@@ -1,0 +1,24 @@
+{
+	"friends": [
+		{
+			"name": "Sarah",
+			"growth": "6",
+			"streak": "9"
+		},
+		{
+			"name": "Jae",
+			"growth": "5",
+			"streak": "2"
+		},
+		{
+			"name": "Sophie",
+			"growth": "7",
+			"streak": "5"
+		},
+		{
+			"name": "David",
+			"growth": "8",
+			"streak": "6"
+		}
+	]
+}
