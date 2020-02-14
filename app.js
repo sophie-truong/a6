@@ -12,6 +12,7 @@ var index = require('./routes/index');
 var sip = require('./routes/sip');
 var archive = require('./routes/archive');
 var friends = require('./routes/friends');
+var shared = require('./routes/shared');
 // Example route
 // var user = require('./routes/user');
 
@@ -41,6 +42,7 @@ app.get('/', index.view);
 app.get('/sip', sip.view);
 app.get('/archive', archive.view);
 app.get('/friends', friends.view);
+app.get('/shared/:name', shared.viewProject);
 
 // Example route
 // app.get('/users', user.list);
