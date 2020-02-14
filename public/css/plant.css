@@ -50,6 +50,11 @@ hr {
   width: 35%;
 }
 
+.cup {
+  width: 35%;
+  margin-bottom: 4em;
+}
+
 img {
   margin-top: 3em;
   height: 45%;
