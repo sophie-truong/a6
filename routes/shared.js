@@ -6,7 +6,5 @@ exports.viewProject = function(req, res){
   console.log("This friend is:" + name);
   res.render('shared', {
     "friendName": name,
-    "friendThem": them,
-    "friendYou": you
   });
 }
