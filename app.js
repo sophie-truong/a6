@@ -43,7 +43,10 @@ app.get('/', index.view);
 app.get('/sip', sip.view);
 app.get('/archive', archive.view);
 app.get('/friends', friends.view);
-app.get('/shared/:name', shared.viewProject);
+app.get('/sharedJae', shared.Jae);
+app.get('/sharedSarah', shared.Sarah);
+app.get('/sharedDavid', shared.David);
+app.get('/sharedSophie', shared.Sophie);
 app.get('/login', login.auth);
 
 // Example route
