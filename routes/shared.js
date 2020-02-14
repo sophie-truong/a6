@@ -1,10 +1,6 @@
-exports.viewProject = function(req, res){
-  var name = req.params.name;
-  var them = req.params.them;
-  var you = req.params.you;
+var data = require('../friends.json');
 
-  console.log("This friend is:" + name);
-  res.render('shared', {
-    "friendName": name,
-  });
+exports.viewProject = function(req, res){
+  res.render('shared', data);
+
 }
